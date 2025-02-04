@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+body.light-theme {
+  background-color: #f6f8fa;
+  color: #24292e;
+}
+body.dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.link-item {
+  margin: 0 20px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+.link-item:hover {
+  color: #3200a7f5;
+}
+
+.container {
+  max-width: 100%;
+  margin: 20px;
+  margin-bottom: 70px;
+}
+.portfolio {
+  background-color: inherit;
+  border: 1px solid #e1e4e8;
+  border-radius: 32px;
+  padding: 13px;
+  box-shadow: 0 1px 3px rgba(27, 31, 35, 0.12);
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-text h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 1px solid #e1e4e8;
+}
+.profile-info .username {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.profile-info .details {
+  font-size: 1rem;
+  color: #586069;
+}
+.portfolio-text p {
+  font-family: monospace;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.links {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #e1e4e8;
+  margin-top: 20px;
+}
+.links .link-item {
+  margin: 0 20px;
+}

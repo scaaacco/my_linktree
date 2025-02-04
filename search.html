@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <link rel="stylesheet" href="static/search.css">
+  <link rel="stylesheet" href="static/bar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+  <main class="search-container">
+    <input type="text" id="search-input" placeholder="Why ?..." list="suggestions">
+    <datalist id="suggestions">
+      <option value=">">
+    </datalist>
+    <div class="results">
+    </div>
+  </main>
+  <div class="bootom-bar">
+    <div class="bar-item">
+      <a href="/search" class="bar-link"><i class="fa fa-search"></i></a>
+    </div>
+    <div class="bar-item">
+      <a href="/" class="bar-link"><i class="fa fa-home" style="text-decoration: none;"></i></a>
+    </div>
+    <div class="bar-item">
+      <a href="/user" class="bar-link"><i class="fa fa-user"></i></a>
+    </div>
+  </div>
+</body>
+</html>
